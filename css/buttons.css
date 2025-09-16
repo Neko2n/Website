@@ -6,6 +6,14 @@
     flex-direction: row;
 }
 
+.hover-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: 'Peace Sans';
+}
+
 .button-link {
     margin-left: 10px;
     margin-right: 10px;
@@ -19,4 +27,8 @@
 .button-link:hover {
     transform: scale(1.1);
     transition: transform 0.1s ease;
+}
+
+.downscaled {
+    transform: scale(0.8);
 }
