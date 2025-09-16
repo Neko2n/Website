@@ -1,0 +1,41 @@
+/* Contains name, titles, and contact info */
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    font-family: 'Peace Sans';
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titles {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-main {
+    color: rgb(255, 239, 148);
+    font-family: 'Peace Sans';
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-sub {
+    color: rgb(180, 178, 187);
+    font-family: 'Peace Sans';
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
