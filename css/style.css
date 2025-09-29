@@ -7,7 +7,12 @@ body {
 
 @font-face {
     font-family: 'Peace Sans';
-    src: url('/fonts/Peace\ Sans\ Webfont.ttf') format('truetype');
+    src: url('/fonts/PeaceSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter.ttf') format('truetype');
 }
 
 h1 {
