@@ -5,14 +5,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 200px;
-    width: 800px;
-    margin-top: 50px;
+    width: 400px;
+    margin-top: 3%;
 }
 
 .name {
     color: rgb(255, 255, 255);
-    font-family: 'Peace Sans';
+    font-family: 'Inter';
+    font-weight: bold;
     font-size: large;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -26,7 +26,7 @@
 
 .title-main {
     color: rgb(255, 239, 148);
-    font-family: 'Peace Sans';
+    font-family: 'Inter';
     font-size: medium;
     margin-left: 10px;
     margin-right: 10px;
@@ -34,8 +34,16 @@
 
 .title-sub {
     color: rgb(180, 178, 187);
-    font-family: 'Peace Sans';
+    font-family: 'Inter';
     font-size: small;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.separator {
+    background-color: rgb(180, 178, 187);
+    height: 2px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
