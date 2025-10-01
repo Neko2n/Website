@@ -1,0 +1,9 @@
+/* Contains name, titles, and contact info */
+
+.about {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 3%;
+}
